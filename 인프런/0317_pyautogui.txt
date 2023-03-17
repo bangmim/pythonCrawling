@@ -1,0 +1,8 @@
+마우스, 키보드 매크로 라이브러리
+간단한 입력 창 띄우기
+
+설치
+pip install pyautogui
+
+pyautogui 입력창
+pyautogui.prompt("검색어를 입력하세요")
