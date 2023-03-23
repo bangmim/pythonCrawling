@@ -29,12 +29,19 @@ driver.get("https://nid.naver.com/nidlogin.login?mode=form&url=https%3A%2F%2Fwww
 # 아이디 입력창
 id=driver.find_element(By.CSS_SELECTOR,"#id")       #copySelector
 id.click()
-id.send_keys("amd_b")
+# id.send_keys("")
+pyperclip.copy('')
+pyautogui.hotkey('ctrl','v')  
+time.sleep(2)
+
 
 # 비밀번호 입력창
 pw=driver.find_element(By.CSS_SELECTOR,"#pw")
 pw.click()
-pw.send_keys("rmaksgo010!@!")
+# pw.send_keys("")
+pyperclip.copy('')
+pyautogui.hotkey('ctrl','v')  
+time.sleep(2)
 
 # 로그인 버튼
 login_btn=driver.find_element(By.CSS_SELECTOR,"#log\.login")

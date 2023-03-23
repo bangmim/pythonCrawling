@@ -7,5 +7,6 @@ import pyperclip
 
 #한글 입력 방법
 pyperclip.copy('스타트코딩')
-pyautogui.hotkey('ctrl','v')
+pyautogui.hotkey('ctrl','v')    #여러개 동시에
+
 
